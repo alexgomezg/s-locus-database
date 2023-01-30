@@ -1,0 +1,34 @@
+#General
+host_working_dir=/path/to/host/working/dir
+
+#Data files
+SRNase_file=SRNase_file
+SRNase_v3_file=SRNase_v3_file
+SRNase_v4_file=SRNase_v4_file
+SRNase_phylo_ref_pos=SRNase_v1_phylo_ref_pos
+SRNase_phylo_ref_neg=SRNase_v1_phylo_ref_neg
+
+Fbox_file=Fbox_file
+Fbox_phylo_ref_pos=Fbox_phylo_ref_pos
+Fbox_phylo_ref_neg=Fbox_phylo_ref_neg
+
+SKP1_file=SKP1_file
+SKP1_phylo_ref=SKP1_phylo_ref
+
+align_mao=align.mao
+tree_mao=tree.mao
+
+genbank_file=genbank_file
+
+#Protocols to be used
+Fbox_protocol=y
+SRNase_v1_protocol=y
+SRNase_v2_protocol=y
+SRNase_v3_protocol=y
+SRNase_v4_protocol=y
+SKP1_protocol=y
+
+flanking=500000
+overlap=500000
+
+# skip_pull_docker_images
